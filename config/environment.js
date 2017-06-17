@@ -20,7 +20,7 @@ module.exports = function(environment) {
     APP: {
     
       
-      apiUri: 'http://localhost:8080'
+      apiUri: 'https://whispering-hamlet-99629.herokuapp.com/'
     }
   };
 
@@ -42,7 +42,7 @@ module.exports = function(environment) {
     ENV.APP.LOG_TRANSITIONS = true;
     ENV.APP.LOG_TRANSITIONS_INTERNAL = true;
     ENV.APP.LOG_VIEW_LOOKUPS = true;
-    ENV.apiHost = 'http://localhost:8080';
+    ENV.apiHost = 'https://whispering-hamlet-99629.herokuapp.com/';
   }
 
   if (environment === 'test') {
@@ -57,7 +57,7 @@ module.exports = function(environment) {
   }
 
   if (environment === 'production') {
-    ENV.apiHost = "http://localhost:8080";
+    ENV.apiHost = "https://whispering-hamlet-99629.herokuapp.com/";
     ENV.apiVersion = "1";
 
  }

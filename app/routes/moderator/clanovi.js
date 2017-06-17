@@ -14,6 +14,6 @@ export default Ember.Route.extend({
 	},
 
 	model() {
-		return this.get('ajax').request('http://localhost:8080/moderator/clanovi', { method: 'GET' });
+		return this.get('ajax').request('https://whispering-hamlet-99629.herokuapp.com/moderator/clanovi', { method: 'GET' });
 	}
 });
